@@ -1,14 +1,17 @@
 # springboot
 
-# To run the springboot application simple run below command
+# To run the springboot application simply run below commands
 
 # git clone https://github.com/rsthakur83/springboot.git
-# cd springboot;make
+# cd springboot
+# make
+
+# To run containerize springboot application
+# docker run -p 8999:8080 rsthakur83/java-app
+# curl http://localhost:8999
 
 
-
-
-#Below the detail steps i followed to configure the application 
+#Below are the steps i followed to configure & dockerize the springboot application 
 
 #Step1) 
 
