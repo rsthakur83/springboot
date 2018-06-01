@@ -3,7 +3,7 @@
 # To run the springboot application simply run below commands after installing Install java version 1.8 & apache mvn version 3.0.5 on the server
 
 # git clone https://github.com/rsthakur83/springboot.git
-# cd springboot
+# cd springboot/gs-spring-boot
 # make
 
 # To run containerize springboot application
