@@ -1,6 +1,14 @@
 # springboot
 
-# To run the springboot application simple clone the repo  https://github.com/rsthakur83/springboot.git and run cd springboot;make
+# To run the springboot application simple run below command
+
+# git clone https://github.com/rsthakur83/springboot.git
+# cd springboot;make
+
+
+
+
+#Below the detail steps i followed to configure the application 
 
 #Step1) 
 
