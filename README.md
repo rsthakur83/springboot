@@ -38,5 +38,5 @@ f)	Click on the url/hostname and we can access the springboot app
  
 
  
-NOTE:  Anyone can run this after installing docker on machine-> docker run -p 8999:8080 rsthakur83/java-app 
+NOTE:  Anyone can run the springboot application after installing docker on machine-> docker run -p 8999:8080 rsthakur83/java-app 
 
