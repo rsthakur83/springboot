@@ -4,7 +4,9 @@
 Step1) I have cloned the repo from https://github.com/spring-guides/gs-spring-boot.git 
 
 
+
 Step2) To run  the springboot app I have created HelloController.java, Application.java & pom.xml as mentioned in the link https://spring.io/guides/gs/spring-boot/ 
+
 
 
 Step3) Use below command to test the application and it will generate the gs-spring-boot-0.1.0.jar file under target directory.
@@ -24,6 +26,7 @@ RUN bash -c 'touch /app.jar'
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 
 To test the springboot container I have run “docker run -p 8999:8080 rsthakur83/java-app” command and expose port 8080 to 8999 .
+
  
 
  
