@@ -19,11 +19,13 @@ Step4)  Once we run the command “mvn package && java -jar target/gs-spring-boo
 
 
 Step5) To containerize  the springboot application I have created the below Dockerfile and build the image from it named as rsthakur83/springboot , also pushed the same image to my docker hub account so that it can be pulled from internet.
+
 FROM java:8
 VOLUME /tmp
 ADD target/gs-spring-boot-0.1.0.jar app.jar
 RUN bash -c 'touch /app.jar'
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+
 
 To test the springboot container I have run “docker run -p 8999:8080 rsthakur83/java-app” command and expose port 8080 to 8999 .
 
